@@ -5,7 +5,7 @@ antifraud_model
 
 2.语言：pyspark
 
-4.脚本：
+3.脚本：
   - 特征：trans_feas.sh 
   - 欺诈标记：fraud_label.py
   - 欺诈评分：fraud_score.py
