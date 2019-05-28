@@ -11,4 +11,6 @@ antifraud_model
   - 欺诈评分：fraud_score.py
   - 项目运行脚本：run.sh
 
-
+4.结果日志：
+  -欺诈标记:label_results.out
+  -欺诈评分:score_results.out 
