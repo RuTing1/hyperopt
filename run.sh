@@ -4,7 +4,7 @@ source ~/.bash_profile
 #Created on 20190430
 #author: dingru1
 #this script is used to control for running antifraud models,contains:
-#step1.trans_feas.sh
+#step1.trans_feas.sh : 获取聚类和分类模型当日训练特征数据
 #step2.fraud_label.py: 根据欺诈用户特征数据利用聚类算法标记用户是否为欺诈用户:{is_fraud:聚类结果欺诈用户,is_fraud2:聚类结果修正欺诈用户}
 #step3.fraud_score.py: 训练随机森林模型评估用户欺诈评分
 #step4.sql3: 用户欺诈评分结果存分区表,ft_tmp.dwd_wallet_crpl_user_fraud_probability
@@ -67,7 +67,7 @@ SELECT jdpin
 
 
 step1 () {
-    #step1:执行define_fraud_users.sh
+    #step1:执行trans_feas.sh
     cnt=`hive -S -e "select count(*) from ft_tmp.dwd_cprl_antifraud_trans_feas where dt='${yesterday}'"`
     if [[ $cnt -lt 1 ]]; then
         sh trans_feas.sh $yesterday
