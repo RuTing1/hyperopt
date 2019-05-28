@@ -1,0 +1,163 @@
+-----------------20190515-----------------
+('The num of lending users is:', 1672947)
+('{original dataset: user number}:', 1672947)
+('{original dataset: good}:', 22725)
+('{original dataset: bad }:', 1650222)
+('{original dataset: good ratio}:', 0.01358381347406702)
+('{sampleBy dataset: user number}:', 90108)
+('{sampleBy dataset: good}:', 22725)
+('{sampleBy dataset: bad }:', 67383)
+('{sampleBy dataset: good ratio}:', 0.25219736316420294)
+('{train dataset: user number}:', 63207)
+('{validation dataset: user number}:', 26901)
+training models ...
+模型调参中 ...
+('the best model is like this:', ([{'maxDepth': 15}, {'minInstancesPerNode': 5}, {'numTrees': 100}], 0.90169854340783))
+features importance are:
++--------------------+----------+
+|            features|importance|
++--------------------+----------+
+|       cash_amount_b|     0.262|
+|max_apply_cash_da...|     0.217|
+|avg_apply_cash_da...|     0.097|
+|  lend_id_failed_cnt|     0.064|
+|    apply_failed_cnt|     0.048|
+|   first_loan_amount|     0.046|
+|   first_cash_amount|     0.043|
+|        id_card_auth|     0.036|
+|first_overdue_pri...|      0.03|
+|min_apply_cash_da...|     0.027|
+|    lend_id_succ_cnt|     0.025|
+|    apply_passed_cnt|     0.022|
+| first_overdue_ratio|      0.02|
+|    highest_eduction|     0.019|
+|    first_cash_ratio|     0.019|
+|first_cash_apply_...|     0.009|
+|       operator_auth|     0.008|
+|min_cash_apply_da...|     0.005|
+|avg_cash_apply_da...|     0.002|
+|accumulation_fund...|     0.001|
++--------------------+----------+
+only showing top 20 rows
+
+('the auc of RandomForestClassifier in validation dataset is:', 0.9044548368590266)
+('the ks of RandomForestClassifier in validation dataset is:', 0.64601486142356668)
+('the ks split of RandomForestClassifier in validation dataset is:', 0.27400000000000002)
+('the time cost for model training is:', 3, 'min')
+('the time cost for geting results is:', 0, 'min')
+-----------------20190515-----------------
+('The num of lending users is:', 1672947)
+('{original dataset: user number}:', 1672947)
+('{original dataset: good}:', 22725)
+('{original dataset: bad }:', 1650222)
+('{original dataset: good ratio}:', 0.01358381347406702)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1672947)
+The results are stored!
+-----------------20190516-----------------
+('The num of lending users is:', 1675369)
+('{original dataset: user number}:', 1675369)
+('{original dataset: good}:', 22832)
+('{original dataset: bad }:', 1652537)
+('{original dataset: good ratio}:', 0.013628042538688491)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1675369)
+The results are stored!
+-----------------20190517-----------------
+('The num of lending users is:', 1677634)
+('{original dataset: user number}:', 1677634)
+('{original dataset: good}:', 22946)
+('{original dataset: bad }:', 1654688)
+('{original dataset: good ratio}:', 0.01367759594762624)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1677634)
+The results are stored!
+-----------------20190518-----------------
+('The num of lending users is:', 1679902)
+('{original dataset: user number}:', 1679902)
+('{original dataset: good}:', 23041)
+('{original dataset: bad }:', 1656861)
+('{original dataset: good ratio}:', 0.01371568103377459)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1679902)
+The results are stored!
+-----------------20190519-----------------
+('The num of lending users is:', 1682068)
+('{original dataset: user number}:', 1682068)
+('{original dataset: good}:', 23131)
+('{original dataset: bad }:', 1658937)
+('{original dataset: good ratio}:', 0.013751524908624383)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1682068)
+The results are stored!
+-----------------20190520-----------------
+('The num of lending users is:', 1684491)
+('{original dataset: user number}:', 1684491)
+('{original dataset: good}:', 23219)
+('{original dataset: bad }:', 1661272)
+('{original dataset: good ratio}:', 0.01378398578561714)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1684491)
+The results are stored!
+-----------------20190521-----------------
+('The num of lending users is:', 1687155)
+('{original dataset: user number}:', 1687155)
+('{original dataset: good}:', 23308)
+('{original dataset: bad }:', 1663847)
+('{original dataset: good ratio}:', 0.013814972542534621)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1687155)
+-----------------20190522-----------------
+('The num of lending users is:', 1689519)
+('{original dataset: user number}:', 1689519)
+('{original dataset: good}:', 23394)
+('{original dataset: bad }:', 1666125)
+('{original dataset: good ratio}:', 0.01384654448988144)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1689519)
+The results are stored!
+-----------------20190523-----------------
+('The num of lending users is:', 1691820)
+('{original dataset: user number}:', 1691820)
+('{original dataset: good}:', 23470)
+('{original dataset: bad }:', 1668350)
+('{original dataset: good ratio}:', 0.013872634204584412)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1691820)
+The results are stored!
+-----------------20190524-----------------
+('The num of lending users is:', 1694089)
+('{original dataset: user number}:', 1694089)
+('{original dataset: good}:', 23549)
+('{original dataset: bad }:', 1670540)
+('{original dataset: good ratio}:', 0.013900686445635383)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1694089)
+The results are stored!
+-----------------20190525-----------------
+('The num of lending users is:', 1696365)
+('{original dataset: user number}:', 1696365)
+('{original dataset: good}:', 23638)
+('{original dataset: bad }:', 1672727)
+('{original dataset: good ratio}:', 0.01393450112446319)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1696365)
+The results are stored!
+-----------------20190526-----------------
+('The num of lending users is:', 1698475)
+('{original dataset: user number}:', 1698475)
+('{original dataset: good}:', 23771)
+('{original dataset: bad }:', 1674704)
+('{original dataset: good ratio}:', 0.013995495959610827)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1698475)
+The results are stored!
+-----------------20190527-----------------
+('The num of lending users is:', 1700700)
+('{original dataset: user number}:', 1700700)
+('{original dataset: good}:', 23855)
+('{original dataset: bad }:', 1676845)
+('{original dataset: good ratio}:', 0.014026577291703417)
+('the time cost for geting results is:', 0, 'min')
+('The num of prediction users is:', 1700700)
+The results are stored!
